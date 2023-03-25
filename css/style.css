@@ -1,0 +1,32 @@
+.center {
+  padding-left: calc(50% - 300px);
+  padding-right: calc(50% - 300px);
+}
+
+.checklist__heading {
+  text-align: center;
+}
+.checklist__control-panel {
+  display: flex;
+  justify-content: center;
+}
+.checklist__list {
+  list-style: none;
+  padding: 10px;
+}
+.checklist__task {
+  background-color: lightgray;
+}
+.checklist__check-button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid black;
+  background-color: #fff;
+  margin-bottom: -4px;
+}
+.checklist__check-button_done {
+  background: #fff url(../img/checkmark.svg);
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
